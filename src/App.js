@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import rand from 'random-words';
 
 import { Header, Figure, Popup, Notification } from './components/index';
 
@@ -9,8 +10,7 @@ import { delayToggle } from './helpers/utils';
  * @return {String} Word
  */
 function getWord() {
-  const words = ['application', 'programming', 'interface', 'wizard'];
-  return words[Math.floor(Math.random() * words.length)];
+  return rand();
 }
 
 let selectedWord = getWord();
