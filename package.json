@@ -14,8 +14,8 @@
     "react-scripts": "4.0.0"
   },
   "devDependencies": {
-    "execa": "^4.1.0",
     "chalk": "^4.1.0",
+    "execa": "^4.1.0",
     "node-emoji": "^1.10.0"
   },
   "scripts": {
